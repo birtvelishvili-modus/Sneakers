@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+}
+header {
+    width: 80%;
+    background-color: white  m;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    padding: 10px;
+    display: flex;
+    padding: 20px;
+}
+.link a {
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.header-1 {
+    width: 30%;
+    align-items: center;
+    text-align: right;
+    margin: 10px;
+    padding: 2px;
+}
+.header-1 img {
+    padding: 20px;
+    justify-content: center;
+    width: 90px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.left {
+    background-color: white;
+    width: 40%;
+    margin: 50px;
+    flex-direction: column;
+}
+.left img {
+    width: 30vw;
+    height: 24vw;
+    margin: 20px;
+}
+.cards {
+    display: flex;
+}
+.cards img {
+    width: 20%;
+    height: 10%;
+}
+.right {
+    background-color: white;
+    width: 30%;
+    height: 40vw;
+    margin: 50px;
+    padding: 50px;
+}
+.right-1 {
+    flex-direction: column;
+}
+span {
+    background-color: black; 
+    color: white;
+    margin: 10px;
+}
+.right-1 p {
+    color: grey;
+    margin: 30px;
+}
+h2 {
+    margin: 30px;
+    font-size: 35px;
+}
+.right-2 {
+    /* border: 1px solid purple; */
+    display: flex;
+    width: 30px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.icons {
+    border: 1px solid red;
+    display: flex;
+    margin: 10px;
+}
+.icons img {
+    width:4vw ;
+    height: 50px;
+    padding: 15px;
+}
+.icons p {
+    padding: 15px;
+}
+.spans span{
+    display: flex;
+    width: 10vw;
+    height: 2vw;
+    border: 1px solid black;
+    background-color: red;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+span {
+    padding: 7px;
+    margin: 7px;
+}
